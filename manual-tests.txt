@@ -70,3 +70,13 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 
 ## Expected results
 * Nothing should be displayed in the card field.
+
+
+# Module 5: Quit application when window is closed
+
+## Test steps
+1. Build and run CiCo
+2. Close the application window
+
+## Expected results
+* Window should close and "Clean shutdown" should be printed to the shell terminal
