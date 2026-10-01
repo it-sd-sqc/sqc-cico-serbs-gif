@@ -47,6 +47,9 @@ public class Main {
       else {
         Toolkit.getDefaultToolkit().beep();
       }
+      if (fb.getDocument().getLength() == MAX_LENGTH) {
+        Main.processCard();
+      }
     }
 
     @Override
@@ -58,6 +61,9 @@ public class Main {
       }
       else {
         Toolkit.getDefaultToolkit().beep();
+      }
+      if (fb.getDocument().getLength() == MAX_LENGTH) {
+        Main.processCard();
       }
     }
   }
